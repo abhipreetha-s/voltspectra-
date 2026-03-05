@@ -1,4 +1,17 @@
-fastapi
-uvicorn
-requests
-pydantic
+--fastapi
+--uvicorn
+--requests
+--pydantic
+This project uses a locally running Lemonade LLM server for AI-based analysis.
+
+ Ensure the Lemonade server is running before starting the FastAPI backend.
+
+Example server endpoint:
+
+http://localhost:8000/v1/chat/completions
+
+start Lemonade and load a supported GGUF model such as:
+
+- Gemma-3-4B-it-GGUF
+- Llama-3.2-3B-Instruct-GGUF
+- Qwen3-4B-GGUF

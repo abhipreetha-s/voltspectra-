@@ -8,6 +8,9 @@ Features:
 - AI-based fault interpretation
 - Local model inference using Lemonade
 
+Sensor Data → FastAPI Backend → Lemonade Local LLM → Fault Analysis Response
+
+
 Run the Project
 
 Install dependencies:

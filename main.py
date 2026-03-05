@@ -64,7 +64,8 @@ def analyze_circuit(data: CircuitData):
         response = requests.post(
             "http://127.0.0.1:8000/v1/chat/completions",
             json={
-                "model": "Llama-3.2-1B-Instruct-UD-Q4_K_XL.gguf",
+                "model":"Gemma-3-4b-it-GGUF",
+
                 "messages": [
                     {"role": "user", "content": prompt}
                 ],
